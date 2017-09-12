@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.768,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.184,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.077,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.391,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.753,C:\Users\Danny\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Danny\Desktop\@@@Szablon_10.02.2014_DXE5\Project.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.137,C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Danny\Desktop\@@@Szablon_10.02.2014_DXE5\UApp.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.917,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.095,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.108,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.509,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.389,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.530,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.137,C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Danny\Desktop\@@@Szablon_10.02.2014_DXE5\UApp.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.820,=C:\Users\Danny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017-09-11 23:20:07.554,=C:\Users\CI-COMPUTER Instal\Desktop\EntityValidation\Unit1.pas</Transaction>
+    <Transaction>2017-09-11 23:20:13.232,C:\Users\CI-COMPUTER Instal\Desktop\EntityValidation\UModel.pas=C:\Users\CI-COMPUTER Instal\Desktop\EntityValidation\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
