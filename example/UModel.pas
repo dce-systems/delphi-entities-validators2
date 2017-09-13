@@ -87,17 +87,17 @@ begin
   Result := TValidationResult.Create;
 
   if aEntity.Firstname.IsEmpty then
-    Result.AddBrokenField('Firstname');
+    Result.AddBrokenField('Firstname', ['Firstname is mandatory.']);
   if aEntity.Lastname.IsEmpty then
-    Result.AddBrokenField('Lastname');
+    Result.AddBrokenField('Lastname', ['Lastname is mandatory.']);
   if aEntity.Email.IsEmpty then
-    Result.AddBrokenField('Email');
+    Result.AddBrokenField('Email', ['Email is mandatory.']);
   if aEntity.Pwd.IsEmpty then
-    Result.AddBrokenField('Pwd');
+    Result.AddBrokenField('Pwd', ['Pwd is mandatory.']);
 
   lIsValid := not (aEntity.Firstname.IsEmpty or aEntity.Lastname.IsEmpty or aEntity.Email.IsEmpty);
   if not lIsValid then
-    Result.BrokenRules := ['The fields Firstname, Lastname and Email are mandatory '];
+    Result.BrokenRules := ['The fields Firstname, Lastname and Email are mandatory.'];
 end;
 
 end.

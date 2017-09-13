@@ -68,6 +68,8 @@ object AppForm: TAppForm
     Top = 104
     Width = 201
     Height = 21
+    ParentShowHint = False
+    ShowHint = False
     TabOrder = 2
     Text = 'John'
   end

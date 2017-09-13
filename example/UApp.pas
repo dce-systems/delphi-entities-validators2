@@ -6,7 +6,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
-  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, 
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, System.Generics.Collections,
   UModel,
   Validators.Attributes,
   Validators.Engine;
@@ -56,7 +56,9 @@ begin
     ValidationResult.Bind('Lastname', EditLastname);
     ValidationResult.Bind('Email', EditEmail);
     ValidationResult.Bind('Pwd', EditPwd);
-
+    
+    ValidationResult.ValidationColor := clYellow; //Change color
+    
     if not ValidationResult.IsValid then
       for Rule in ValidationResult.BrokenRules do  //Iteration by rule
         ShowMessage(Rule);
